@@ -19,12 +19,6 @@ font-size: 40px;
   max-width: 100%;
 }
 
-.video {
-   align-items: center;
-   align-self: center;
-   align-content: center;
-}
-
 .button {
     background-color: rgb(121, 121, 121);
     color: rgb(0, 0, 0);
@@ -37,4 +31,17 @@ font-size: 40px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
+}
+
+/* Centre la vidéo et rend l'iframe responsive */
+.video{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 20px 0;
+}
+.video iframe{
+    max-width: auto;
+    width:560px; /* valeur par défaut, redimensionne si espace plus petit */
+    height:315px;
 }
