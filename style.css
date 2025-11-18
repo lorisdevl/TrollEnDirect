@@ -1,6 +1,23 @@
-button{
-    background-color: red;
-    color: black;
-    font-size: 100px;
-    border-radius: 20px;
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.titre {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.titre_2 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+
+}
+
+.page_troll {
+    color: rgb(255, 255, 255);
+    font-size: large;
 }
