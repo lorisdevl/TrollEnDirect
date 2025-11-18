@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
 .media-img {
   background-size: 150px;
   width: 300px;
