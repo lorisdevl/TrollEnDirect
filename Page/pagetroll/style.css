@@ -1,6 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(101, 0, 155);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +10,10 @@ body {
 
 .log-container {
     background-color: rgba(224, 176, 238, 0.714);
-    height: 70%;
+    height: 60%;
     width: 35%;
     border: none;
-    border-radius: 3rem; 
+    border-radius: 3rem; /* Arrondis les bords */
     position: relative;
 }
 
@@ -40,17 +40,19 @@ label {
 input {
     width: 55%;
     font-size: 20px;
-    padding: 0.2rem;
+    padding: 0.2rem; /*  */
 }
 
-button {
+.login-btn, .login-btn-hdn, .vid-btn-hdn {
     width: 32%;
     height: 3rem;
     border-radius: 1rem;
     border: none;
     position: absolute;
-    bottom: 5rem;
+    bottom: 6rem;
     left: 35%;
-
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(106, 3, 166);
 }
-
