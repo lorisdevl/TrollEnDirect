@@ -8,22 +8,31 @@
 </head>
 <body>
     <div class="log-container">
-        <h1 class="conn-txt">Inscris toi</h1>
-        
-        <!--  -->
-        <div class="form">
-            <label for="email">Adresse mail :</label>
-            <input type="email" id="email" name="email" required>
+        <h2 class="title">Login</h2>
 
-            <label for="password">Mot de passe :</label>
-            <input type="password" id="password" name="password" required>
-        </div>
-        
-        <button class="login-btn-hdn">Confirmer</button>
-        <button class="login-btn-hdn">Êtes-vous sur ?</button>
-        <button class="login-btn-hdn">Vraiment ?</button>
-        <button class="vid-btn-hdn"><a href="">Vidéo</a></button>
-        <button class="login-btn">S'inscrire</button>
+        <label for="email">Adresse mail :</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Mot de passe :</label><br>
+        <input type="password" id="password" name="password" required><br>
+
+        <button class="login-btn"><p>S'inscrire</p></button>
     </div>
+    <a href="Rick_Astley_Never_Gonna_Give_You_Up.mp4"></a>
+
+    <script>
+        const btn = document.querySelector('.login-btn');
+        btn.addEventListener('click' , function() {
+            const p = document.querySelector('.login-btn p');
+
+            if (p.textContent === "S'inscrire") {
+                p.textContent = "Confirmer";
+            } else {
+                btn.outerHTML = '<a href="Rick_Astley_Never_Gonna_Give_You_Up.mp4" class="login-btn"><p>Okay</p></a>';
+            }
+        });
+
+
+    </script>
 </body>
 </html>

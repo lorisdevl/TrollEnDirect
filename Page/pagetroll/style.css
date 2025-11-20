@@ -1,58 +1,68 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(246, 235, 255);
     color: rgb(101, 0, 155);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 0;
     height: 100vh;
 }
 
 .log-container {
-    background-color: rgba(224, 176, 238, 0.714);
+    background-color: rgba(232, 175, 230, 0.37);
+    box-shadow: rgba(122, 34, 117, 0.66) 0px 20px 30px -10px;
     height: 60%;
-    width: 35%;
+    width: 28%;
     border: none;
-    border-radius: 3rem; /* Arrondis les bords */
-    position: relative;
+    border-radius: 1.5rem; /* Arrondis les bords */
 }
 
-.conn-txt {
+.title {
     text-align: center;
     font-weight: bold;
-    font-size: 35px;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 50;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: rgb(101, 22, 175);
+    text-shadow: 0.25rem 0.15rem 0.1rem rgba(137, 50, 218, 0.178);
 }
 
 label {
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: -1rem;
+    display: block;
+    color: rgb(101, 22, 175);
+    text-shadow: 0.25rem 0.15rem 0.1rem rgba(137, 50, 218, 0.151);
     font-weight: bold;
-    margin-top: 3.5rem;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 input {
-    width: 55%;
-    font-size: 20px;
-    padding: 0.2rem; /*  */
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.35rem;
+    margin: 0.55rem;
+    margin-left: 2.5rem;
+    width: 25rem;
+    margin: auto;
+    display: block;
+    box-shadow: 0.5rem 0.5rem 0.55rem rgba(137, 50, 218, 0.068);
 }
 
-.login-btn, .login-btn-hdn, .vid-btn-hdn {
-    width: 32%;
-    height: 3rem;
+.login-btn {
+    text-align: center;
+    width: 10rem;
+    height: 6.5rem;
+    margin: 0 auto;
+    display: block;
     border-radius: 1rem;
     border: none;
-    position: absolute;
-    bottom: 6rem;
-    left: 35%;
-    background-color: white;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(106, 3, 166);
+    font-family: "Sour Grummy", regular;
+    font-size: 2rem;
+    background-color: rgba(253, 237, 253, 0.615);
+    box-shadow: 0.5rem 0.5rem 0.25rem rgba(137, 50, 218, 0.042);
+    color: rgb(101, 22, 175);
+    text-shadow: 0.25rem 0.15rem 0.1rem rgba(137, 50, 218, 0.178);
+    cursor: pointer;
+    margin-top: 3rem;
 }
