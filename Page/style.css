@@ -1,6 +1,13 @@
 body {
-  background-color: rgb(0, 0, 0);
+  
+background: #000000;
+background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 5%, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, rgba(255, 255, 255, 1) 95%, rgba(0, 0, 0, 1) 100%);
+  
+
+
   color: rgb(255, 255, 255);
+
+  font-family: Arial, Helvetica, sans-serif;
   
 }
 
@@ -44,4 +51,21 @@ font-size: 40px;
     max-width: auto;
     width:560px; /* valeur par défaut, redimensionne si espace plus petit */
     height:315px;
+}
+
+
+p{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+p.texte {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.texte {
+    font-size: 15px;
+    text-align: center;
 }
