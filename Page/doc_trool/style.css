@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    font-size: 20px;    
+}
+
+.button_retour {
+    background-color: rgb(121, 121, 121);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
