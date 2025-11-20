@@ -13,7 +13,7 @@ body {
     height: 60%;
     width: 35%;
     border: none;
-    border-radius: 3rem; 
+    border-radius: 3rem; /* Arrondis les bords */
     position: relative;
 }
 
@@ -40,11 +40,7 @@ label {
 input {
     width: 55%;
     font-size: 20px;
-    padding: 0.2rem;
-}
-
-.login-btn {
-    z-index: 2;
+    padding: 0.2rem; /*  */
 }
 
 .login-btn, .login-btn-hdn, .vid-btn-hdn {
@@ -59,9 +55,4 @@ input {
     font-size: 20px;
     font-weight: bold;
     color: rgb(106, 3, 166);
-}
-
-.login-btn-hdn, .vid-btn-hdn {
-    display: none;
-    z-index: 1;
 }
