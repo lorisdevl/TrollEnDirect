@@ -1,9 +1,6 @@
 body {
   
 background: #000000;
-background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 5%, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, rgba(255, 255, 255, 1) 95%, rgba(0, 0, 0, 1) 100%);
-  
-
 
   color: rgb(255, 255, 255);
 
@@ -15,6 +12,7 @@ background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 5%
 text-align: center;
 font-size: 40px;
 }
+
 .media-img {
   background-size: 150px;
   width: 300px;
@@ -24,20 +22,6 @@ font-size: 40px;
   display: block;
   margin: 0 auto;
   max-width: 100%;
-}
-
-.button {
-    background-color: rgb(121, 121, 121);
-    color: rgb(0, 0, 0);
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
 }
 
 /* Centre la vidéo et rend l'iframe responsive */
@@ -51,23 +35,6 @@ font-size: 40px;
     max-width: auto;
     width:560px; /* valeur par défaut, redimensionne si espace plus petit */
     height:315px;
-}
-
-
-p{
-    margin-left: 500px;
-    margin-right: 500px;
-}
-
-p.texte {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.texte {
-    font-size: 15px;
-    text-align: center;
 }
 
 .button_retour {
@@ -86,4 +53,55 @@ p.texte {
     top: 20px;
     left: 20px;
     z-index: 1000;
+}
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+       margin-left: 500px;
+    margin-right: 500px;
+    
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.6;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.6;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+ul {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.intro {
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.6;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+code{
+    
+    display: flex;
+    justify-content: center;
 }
