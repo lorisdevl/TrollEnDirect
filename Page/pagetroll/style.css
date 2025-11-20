@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.log-container {
+    background-color: rgba(224, 176, 238, 0.714);
+    height: 70%;
+    width: 35%;
+    border: none;
+    border-radius: 3rem; 
+    position: relative;
+}
+
+.conn-txt {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 3.5rem;
+    font-size: 24px;
+}
+
+input {
+    width: 55%;
+    font-size: 20px;
+    padding: 0.2rem;
+}
+
+button {
+    width: 32%;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    position: absolute;
+    bottom: 5rem;
+    left: 35%;
+
+}
+

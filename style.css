@@ -56,9 +56,9 @@ body {
     text-decoration: underline;
 }
 
-.button {
-    background-color: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
+.button_retour {
+    background-color: rgb(121, 121, 121);
+    color: rgb(0, 0, 0);
     border: none;
     padding: 10px 20px;
     text-align: center;
@@ -68,7 +68,8 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
-}
-.tb{
-    color: white;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
 }
