@@ -9,11 +9,12 @@
     color: white;
     
     /* Dégradé accrocheur */
-    background: linear-gradient(135deg, #ff1818, #0f8d04, #000000);
+    background: linear-gradient(135deg, #ff0000, #0f8d04, #000000);
     background-size: 200% 200%;
 
     /* Ombre + transition */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+
     transition:
         transform 0.15s ease,
         box-shadow 0.2s ease,
